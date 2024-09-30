@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reserva de Hotel</title>
+    
+</head>
+<body>
+    <h2>Reserva una habitación</h2>
+    <hr>
+    <label for="cliente">Nombre:</label>
+    <input type="text" id="cliente">
+    <br>
+    <hr>
+    <label for="fecha">Fecha:</label>
+    <input type="date" id="fecha">
+    <br>
+    <hr>
+    <label for="habitacion">Número:</label>
+    <input type="text" id="habitacion">
+    <br>
+    <hr>
+    <button onclick="hacerReserva()">Reservar Habitación</button>
+    <button onclick="cancelarReserva()">Cancelar Reserva</button>
+    <hr>
+    <div id="resultado"></div>
+
+    
+</body>
+<script src="./3.js"></script>
+</html>
